@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F96EEDA61B29FFEF0057C016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96EEDA51B29FFEF0057C016 /* AppDelegate.swift */; };
+		F96EEDA81B29FFEF0057C016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96EEDA71B29FFEF0057C016 /* ViewController.swift */; };
+		F96EEDAB1B29FFEF0057C016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96EEDA91B29FFEF0057C016 /* Main.storyboard */; };
+		F96EEDAD1B29FFEF0057C016 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96EEDAC1B29FFEF0057C016 /* Images.xcassets */; };
+		F96EEDB01B29FFEF0057C016 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96EEDAE1B29FFEF0057C016 /* LaunchScreen.xib */; };
+		F96EEDBC1B29FFEF0057C016 /* InterstitialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96EEDBB1B29FFEF0057C016 /* InterstitialTests.swift */; };
+		F96EEDC61B2A00070057C016 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDC51B2A00070057C016 /* Security.framework */; };
+		F96EEDC81B2A000E0057C016 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDC71B2A000E0057C016 /* AdSupport.framework */; };
+		F96EEDCA1B2A00140057C016 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDC91B2A00130057C016 /* CoreGraphics.framework */; };
+		F96EEDCC1B2A00190057C016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDCB1B2A00190057C016 /* Foundation.framework */; };
+		F96EEDCE1B2A001F0057C016 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDCD1B2A001F0057C016 /* MediaPlayer.framework */; };
+		F96EEDD01B2A00260057C016 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDCF1B2A00260057C016 /* StoreKit.framework */; };
+		F96EEDD21B2A002C0057C016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDD11B2A002C0057C016 /* UIKit.framework */; };
+		F96EEDD41B2A00340057C016 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDD31B2A00340057C016 /* SystemConfiguration.framework */; };
+		F96EEDD61B2A003B0057C016 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDD51B2A003B0057C016 /* libz.dylib */; };
+		F96EEDDA1B2A00970057C016 /* libFlurry_6.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDD91B2A00970057C016 /* libFlurry_6.5.0.a */; };
+		F96EEDDE1B2A00B80057C016 /* libFlurryAds_6.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96EEDDD1B2A00B80057C016 /* libFlurryAds_6.5.0.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F96EEDB61B29FFEF0057C016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F96EED981B29FFEF0057C016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96EED9F1B29FFEF0057C016;
+			remoteInfo = Interstitial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F920A5421B697354005428CF /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		F920A5431B697354005428CF /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		F96EEDA01B29FFEF0057C016 /* Interstitial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interstitial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96EEDA41B29FFEF0057C016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96EEDA51B29FFEF0057C016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F96EEDA71B29FFEF0057C016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F96EEDAA1B29FFEF0057C016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F96EEDAC1B29FFEF0057C016 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F96EEDAF1B29FFEF0057C016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F96EEDB51B29FFEF0057C016 /* InterstitialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterstitialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96EEDBA1B29FFEF0057C016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96EEDBB1B29FFEF0057C016 /* InterstitialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialTests.swift; sourceTree = "<group>"; };
+		F96EEDC51B2A00070057C016 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F96EEDC71B2A000E0057C016 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F96EEDC91B2A00130057C016 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F96EEDCB1B2A00190057C016 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F96EEDCD1B2A001F0057C016 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F96EEDCF1B2A00260057C016 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F96EEDD11B2A002C0057C016 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F96EEDD31B2A00340057C016 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F96EEDD51B2A003B0057C016 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F96EEDD81B2A008B0057C016 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		F96EEDD91B2A00970057C016 /* libFlurry_6.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.5.0.a; sourceTree = "<group>"; };
+		F96EEDDB1B2A00A60057C016 /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdInterstitial.h; sourceTree = "<group>"; };
+		F96EEDDC1B2A00A60057C016 /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		F96EEDDD1B2A00B80057C016 /* libFlurryAds_6.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_6.5.0.a; sourceTree = "<group>"; };
+		F96EEDDF1B2A00C60057C016 /* FlurryAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdError.h; sourceTree = "<group>"; };
+		F96EEDE01B2A00C60057C016 /* FlurryAdTargeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdTargeting.h; sourceTree = "<group>"; };
+		F96EEDE11B2A01A70057C016 /* Interstitial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Interstitial-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F96EED9D1B29FFEF0057C016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96EEDD61B2A003B0057C016 /* libz.dylib in Frameworks */,
+				F96EEDD41B2A00340057C016 /* SystemConfiguration.framework in Frameworks */,
+				F96EEDD21B2A002C0057C016 /* UIKit.framework in Frameworks */,
+				F96EEDD01B2A00260057C016 /* StoreKit.framework in Frameworks */,
+				F96EEDCE1B2A001F0057C016 /* MediaPlayer.framework in Frameworks */,
+				F96EEDCC1B2A00190057C016 /* Foundation.framework in Frameworks */,
+				F96EEDDE1B2A00B80057C016 /* libFlurryAds_6.5.0.a in Frameworks */,
+				F96EEDCA1B2A00140057C016 /* CoreGraphics.framework in Frameworks */,
+				F96EEDDA1B2A00970057C016 /* libFlurry_6.5.0.a in Frameworks */,
+				F96EEDC81B2A000E0057C016 /* AdSupport.framework in Frameworks */,
+				F96EEDC61B2A00070057C016 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96EEDB21B29FFEF0057C016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F96EED971B29FFEF0057C016 = {
+			isa = PBXGroup;
+			children = (
+				F96EEDD51B2A003B0057C016 /* libz.dylib */,
+				F96EEDD31B2A00340057C016 /* SystemConfiguration.framework */,
+				F96EEDD11B2A002C0057C016 /* UIKit.framework */,
+				F96EEDCF1B2A00260057C016 /* StoreKit.framework */,
+				F96EEDCD1B2A001F0057C016 /* MediaPlayer.framework */,
+				F96EEDCB1B2A00190057C016 /* Foundation.framework */,
+				F96EEDC91B2A00130057C016 /* CoreGraphics.framework */,
+				F96EEDC71B2A000E0057C016 /* AdSupport.framework */,
+				F96EEDC51B2A00070057C016 /* Security.framework */,
+				F96EEDA21B29FFEF0057C016 /* Interstitial */,
+				F96EEDB81B29FFEF0057C016 /* InterstitialTests */,
+				F96EEDA11B29FFEF0057C016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F96EEDA11B29FFEF0057C016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F96EEDA01B29FFEF0057C016 /* Interstitial.app */,
+				F96EEDB51B29FFEF0057C016 /* InterstitialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F96EEDA21B29FFEF0057C016 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				F920A5421B697354005428CF /* FlurryAds.h */,
+				F920A5431B697354005428CF /* FlurryAdDelegate.h */,
+				F96EEDA51B29FFEF0057C016 /* AppDelegate.swift */,
+				F96EEDA71B29FFEF0057C016 /* ViewController.swift */,
+				F96EEDA91B29FFEF0057C016 /* Main.storyboard */,
+				F96EEDDF1B2A00C60057C016 /* FlurryAdError.h */,
+				F96EEDE11B2A01A70057C016 /* Interstitial-Bridging-Header.h */,
+				F96EEDE01B2A00C60057C016 /* FlurryAdTargeting.h */,
+				F96EEDDD1B2A00B80057C016 /* libFlurryAds_6.5.0.a */,
+				F96EEDDB1B2A00A60057C016 /* FlurryAdInterstitial.h */,
+				F96EEDDC1B2A00A60057C016 /* FlurryAdInterstitialDelegate.h */,
+				F96EEDD91B2A00970057C016 /* libFlurry_6.5.0.a */,
+				F96EEDD81B2A008B0057C016 /* Flurry.h */,
+				F96EEDAC1B29FFEF0057C016 /* Images.xcassets */,
+				F96EEDAE1B29FFEF0057C016 /* LaunchScreen.xib */,
+				F96EEDA31B29FFEF0057C016 /* Supporting Files */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		F96EEDA31B29FFEF0057C016 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96EEDA41B29FFEF0057C016 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F96EEDB81B29FFEF0057C016 /* InterstitialTests */ = {
+			isa = PBXGroup;
+			children = (
+				F96EEDBB1B29FFEF0057C016 /* InterstitialTests.swift */,
+				F96EEDB91B29FFEF0057C016 /* Supporting Files */,
+			);
+			path = InterstitialTests;
+			sourceTree = "<group>";
+		};
+		F96EEDB91B29FFEF0057C016 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96EEDBA1B29FFEF0057C016 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F96EED9F1B29FFEF0057C016 /* Interstitial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96EEDBF1B29FFEF0057C016 /* Build configuration list for PBXNativeTarget "Interstitial" */;
+			buildPhases = (
+				F96EED9C1B29FFEF0057C016 /* Sources */,
+				F96EED9D1B29FFEF0057C016 /* Frameworks */,
+				F96EED9E1B29FFEF0057C016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interstitial;
+			productName = Interstitial;
+			productReference = F96EEDA01B29FFEF0057C016 /* Interstitial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F96EEDB41B29FFEF0057C016 /* InterstitialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96EEDC21B29FFEF0057C016 /* Build configuration list for PBXNativeTarget "InterstitialTests" */;
+			buildPhases = (
+				F96EEDB11B29FFEF0057C016 /* Sources */,
+				F96EEDB21B29FFEF0057C016 /* Frameworks */,
+				F96EEDB31B29FFEF0057C016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F96EEDB71B29FFEF0057C016 /* PBXTargetDependency */,
+			);
+			name = InterstitialTests;
+			productName = InterstitialTests;
+			productReference = F96EEDB51B29FFEF0057C016 /* InterstitialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F96EED981B29FFEF0057C016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "David Leonard";
+				TargetAttributes = {
+					F96EED9F1B29FFEF0057C016 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F96EEDB41B29FFEF0057C016 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F96EED9F1B29FFEF0057C016;
+					};
+				};
+			};
+			buildConfigurationList = F96EED9B1B29FFEF0057C016 /* Build configuration list for PBXProject "Interstitial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F96EED971B29FFEF0057C016;
+			productRefGroup = F96EEDA11B29FFEF0057C016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F96EED9F1B29FFEF0057C016 /* Interstitial */,
+				F96EEDB41B29FFEF0057C016 /* InterstitialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F96EED9E1B29FFEF0057C016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96EEDAB1B29FFEF0057C016 /* Main.storyboard in Resources */,
+				F96EEDB01B29FFEF0057C016 /* LaunchScreen.xib in Resources */,
+				F96EEDAD1B29FFEF0057C016 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96EEDB31B29FFEF0057C016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F96EED9C1B29FFEF0057C016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96EEDA81B29FFEF0057C016 /* ViewController.swift in Sources */,
+				F96EEDA61B29FFEF0057C016 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96EEDB11B29FFEF0057C016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96EEDBC1B29FFEF0057C016 /* InterstitialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F96EEDB71B29FFEF0057C016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96EED9F1B29FFEF0057C016 /* Interstitial */;
+			targetProxy = F96EEDB61B29FFEF0057C016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F96EEDA91B29FFEF0057C016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96EEDAA1B29FFEF0057C016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F96EEDAE1B29FFEF0057C016 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96EEDAF1B29FFEF0057C016 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F96EEDBD1B29FFEF0057C016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F96EEDBE1B29FFEF0057C016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F96EEDC01B29FFEF0057C016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Interstitial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Interstitial",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Interstitial/Interstitial-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F96EEDC11B29FFEF0057C016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Interstitial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Interstitial",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Interstitial/Interstitial-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F96EEDC31B29FFEF0057C016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InterstitialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interstitial.app/Interstitial";
+			};
+			name = Debug;
+		};
+		F96EEDC41B29FFEF0057C016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InterstitialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interstitial.app/Interstitial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F96EED9B1B29FFEF0057C016 /* Build configuration list for PBXProject "Interstitial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96EEDBD1B29FFEF0057C016 /* Debug */,
+				F96EEDBE1B29FFEF0057C016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96EEDBF1B29FFEF0057C016 /* Build configuration list for PBXNativeTarget "Interstitial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96EEDC01B29FFEF0057C016 /* Debug */,
+				F96EEDC11B29FFEF0057C016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96EEDC21B29FFEF0057C016 /* Build configuration list for PBXNativeTarget "InterstitialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96EEDC31B29FFEF0057C016 /* Debug */,
+				F96EEDC41B29FFEF0057C016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F96EED981B29FFEF0057C016 /* Project object */;
+}
